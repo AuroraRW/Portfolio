@@ -1,0 +1,185 @@
+body {
+    background:rgb(230, 230, 230);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    word-wrap:break-word;
+    word-break: normal;
+}
+
+/* header */
+.nav-background {
+    background-color:rgb(100, 100, 100);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.nav-brand {
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+}
+.nav-links {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+a, a:link, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: inherit;
+}
+.nav-links a {
+    color: white;
+    margin: 0 4px;
+}
+.nav-links a:hover {
+    color: rgb(82, 82, 82);
+}
+
+/* background, padding for each section*/
+#hero {
+    margin: 70px 0;
+}
+#projects, #life {
+    background-color: white;
+    padding: 0 0 70px 0;
+}
+#reward {
+    padding: 0 0 70px 0;
+}
+
+/* hero section */
+#hero-title{
+    font-size: 180%;
+    margin: 0 0 30px 0;
+}
+#hero p{
+   font-size: 125%;
+}
+#hero img {
+    width: 100%;
+    height: 450px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+}
+
+
+/* projects section */
+#projects h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding: 30px 0 0 0; 
+    font-size: 300%;
+}
+
+#projects img {
+    width: 100%;
+    height: 300px;
+    border: 2px solid rgb(82, 82, 82);
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,.5);
+}
+.space {
+    margin: 50px 0px;
+}
+
+.project2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+#projects h4 {
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+#projects p a{
+    text-decoration: underline;
+}
+#projects p a:hover{
+    font-style:italic;
+}
+.text-link {
+    font-size: 120%;
+}
+/* reward section */
+#reward h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 300%;
+    padding: 30px 0 0 0;
+}
+
+#reward p {
+    text-align: center;
+    font-size: 120%;
+}
+
+#reward img {
+    width: 100%;
+    height: 150px;
+    margin: 10px 0 0 0;
+    border-radius: 5px;
+}
+#reward img:hover {
+    border: 1px solid white;
+    box-shadow: 8px 8px 8px rgba(0,0,0,.5); 
+}
+
+/* life section */
+#life h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 300%;
+    padding: 30px 0 0 0;
+}
+.life-list{
+    display: flex;
+    justify-content: center;
+}
+.life-list li{
+    font-size: 120%;
+}
+
+#life img {
+    width: 100%;
+}
+
+.image-frame {
+    padding: 0;
+}
+
+/* footer */
+#footer-background{
+    background-color:rgb(100, 100, 100);
+    width: 100%;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+.footer-links img{
+    width: 100%;
+    height: 30px;
+}
+#footer-background p{
+    color:white;
+    margin: 0;
+}
+#footer-background a{
+    margin: 2px 8px;
+}
+
+.footer-links img:hover{
+    border: 1px solid white;
+}
+
