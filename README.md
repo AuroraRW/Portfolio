@@ -1,2 +1,2 @@
-# Portfolio-V1
-### Built portfolio (version 1) using Html, Css, Bootstrap
+# Portfolio
+### Built portfolio using Html, Css, Bootstrap, 
